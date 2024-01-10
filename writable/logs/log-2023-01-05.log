@@ -1,0 +1,16 @@
+CRITICAL - 2023-01-05 00:41:23 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ci4-sistemkasir\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ci4-sistemkasir\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ci4-sistemkasir\app\Controllers\Home.php(43): CodeIgniter\Model->__call('CekLogin', Array)
+#3 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(832): App\Controllers\Home->CekLogin()
+#4 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4-sistemkasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-05 00:47:13 --> Use of undefined constant cek_login - assumed 'cek_login' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\ci4-sistemkasir\app\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(832): App\Controllers\Home->CekLogin()
+#2 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4-sistemkasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

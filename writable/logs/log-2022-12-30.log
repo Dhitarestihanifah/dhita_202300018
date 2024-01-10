@@ -1,0 +1,15 @@
+CRITICAL - 2022-12-30 21:28:08 --> Array to string conversion
+#0 C:\xampp\htdocs\ci4-sistemkasir\app\Views\v_produk.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4-sistemkasir\system\Common.php(1089): CodeIgniter\View\View->render('v_produk', Array, true)
+#4 C:\xampp\htdocs\ci4-sistemkasir\app\Views\v_template.php(207): view('v_produk')
+#5 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\ci4-sistemkasir\system\Common.php(1089): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp\htdocs\ci4-sistemkasir\app\Controllers\Produk.php(31): view('v_template', Array)
+#9 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#10 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#11 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4-sistemkasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

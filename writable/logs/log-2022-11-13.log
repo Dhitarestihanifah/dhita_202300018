@@ -1,0 +1,6 @@
+CRITICAL - 2022-11-13 08:37:34 --> Class 'app\Models\ModelSatuan' not found
+#0 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(809): App\Controllers\Satuan->__construct()
+#1 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4-sistemkasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

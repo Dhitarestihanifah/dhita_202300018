@@ -1,0 +1,35 @@
+ERROR - 2023-04-07 21:22:17 --> Invalid product ID.  The product ID can only contain alpha-numeric characters, dashes, and underscores
+CRITICAL - 2023-04-07 21:40:22 --> Undefined variable: no
+#0 C:\xampp\htdocs\ci4-sistemkasir\app\Views\v_penjualan.php(247): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 247, Array)
+#1 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4-sistemkasir\system\Common.php(1089): CodeIgniter\View\View->render('v_penjualan', Array, true)
+#4 C:\xampp\htdocs\ci4-sistemkasir\app\Controllers\Penjualan.php(25): view('v_penjualan', Array)
+#5 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->index()
+#6 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4-sistemkasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-07 21:40:31 --> Undefined variable: no
+#0 C:\xampp\htdocs\ci4-sistemkasir\app\Views\v_penjualan.php(247): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 247, Array)
+#1 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4-sistemkasir\system\Common.php(1089): CodeIgniter\View\View->render('v_penjualan', Array, true)
+#4 C:\xampp\htdocs\ci4-sistemkasir\app\Controllers\Penjualan.php(25): view('v_penjualan', Array)
+#5 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->index()
+#6 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4-sistemkasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-07 21:44:21 --> Undefined variable: no
+#0 C:\xampp\htdocs\ci4-sistemkasir\app\Views\v_penjualan.php(247): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 247, Array)
+#1 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4-sistemkasir\system\Common.php(1089): CodeIgniter\View\View->render('v_penjualan', Array, true)
+#4 C:\xampp\htdocs\ci4-sistemkasir\app\Controllers\Penjualan.php(25): view('v_penjualan', Array)
+#5 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->index()
+#6 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4-sistemkasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-07 22:23:59 --> An invalid name was submitted as the product name:  The name can only contain alpha-numeric characters, dashes, underscores, colons, and spaces

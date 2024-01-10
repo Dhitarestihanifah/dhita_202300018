@@ -1,0 +1,60 @@
+CRITICAL - 2023-04-09 00:30:04 --> Function name must be a string
+#0 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci4-sistemkasir\system\Common.php(1089): CodeIgniter\View\View->render('v_penjualan', Array, true)
+#3 C:\xampp\htdocs\ci4-sistemkasir\app\Controllers\Penjualan.php(25): view('v_penjualan', Array)
+#4 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->index()
+#5 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#6 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4-sistemkasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-09 00:30:45 --> Function name must be a string
+#0 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci4-sistemkasir\system\Common.php(1089): CodeIgniter\View\View->render('v_penjualan', Array, true)
+#3 C:\xampp\htdocs\ci4-sistemkasir\app\Controllers\Penjualan.php(25): view('v_penjualan', Array)
+#4 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->index()
+#5 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#6 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4-sistemkasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-09 00:30:47 --> Function name must be a string
+#0 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci4-sistemkasir\system\Common.php(1089): CodeIgniter\View\View->render('v_penjualan', Array, true)
+#3 C:\xampp\htdocs\ci4-sistemkasir\app\Controllers\Penjualan.php(25): view('v_penjualan', Array)
+#4 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->index()
+#5 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#6 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4-sistemkasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-09 00:30:49 --> Function name must be a string
+#0 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci4-sistemkasir\system\Common.php(1089): CodeIgniter\View\View->render('v_penjualan', Array, true)
+#3 C:\xampp\htdocs\ci4-sistemkasir\app\Controllers\Penjualan.php(25): view('v_penjualan', Array)
+#4 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->index()
+#5 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#6 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4-sistemkasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-09 00:31:05 --> Function name must be a string
+#0 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci4-sistemkasir\system\Common.php(1089): CodeIgniter\View\View->render('v_penjualan', Array, true)
+#3 C:\xampp\htdocs\ci4-sistemkasir\app\Controllers\Penjualan.php(25): view('v_penjualan', Array)
+#4 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->index()
+#5 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#6 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4-sistemkasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-09 00:31:14 --> Function name must be a string
+#0 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci4-sistemkasir\system\Common.php(1089): CodeIgniter\View\View->render('v_penjualan', Array, true)
+#3 C:\xampp\htdocs\ci4-sistemkasir\app\Controllers\Penjualan.php(25): view('v_penjualan', Array)
+#4 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->index()
+#5 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#6 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4-sistemkasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,22 @@
+CRITICAL - 2023-01-08 21:09:29 --> time() expects exactly 0 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'time() expects ...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\ci4-sistemkasir\app\Views\v_penjualan.php(88): time('11:00:00')
+#2 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\ci4-sistemkasir\system\Common.php(1089): CodeIgniter\View\View->render('v_penjualan', Array, true)
+#5 C:\xampp\htdocs\ci4-sistemkasir\app\Controllers\Penjualan.php(20): view('v_penjualan', Array)
+#6 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->index()
+#7 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4-sistemkasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-08 21:09:41 --> Call to undefined function times()
+#0 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ci4-sistemkasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci4-sistemkasir\system\Common.php(1089): CodeIgniter\View\View->render('v_penjualan', Array, true)
+#3 C:\xampp\htdocs\ci4-sistemkasir\app\Controllers\Penjualan.php(20): view('v_penjualan', Array)
+#4 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(832): App\Controllers\Penjualan->index()
+#5 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#6 C:\xampp\htdocs\ci4-sistemkasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4-sistemkasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
